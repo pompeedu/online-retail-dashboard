@@ -1,0 +1,110 @@
+/* Стили для всех Plotly графиков */
+.stPlotlyChart {
+    background-color: #161B22;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(69, 133, 243, 0.101);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Карточки KPI */
+.kpi-card {
+    background-color: #161B22;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(69, 133, 243, 0.2);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+@keyframes glow {
+  0%   { color: #161B22;}
+  50%  { color: #152d5d;}
+  100% { color: #4B88FF;}
+}
+
+.kpi-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4B88FF;
+    animation: glow 3.2s ease-in-out;
+}
+
+.kpi-label {
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+.main-header {
+    text-align: center;
+
+}
+.landing-content {
+    margin: 0 auto;
+
+}
+.feature-box {
+    background-color: #161B22;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/* Отступы между блоками */
+.sidebar-divider {
+    border-radius: 10px;
+    padding:1px;
+    background-color: #434343;
+    width: "100%";
+    height: auto;
+}
+
+.contact-card {
+    background-color: #161B22;
+    padding: 16px;
+    border-radius: 10px;
+    border-left: 4px solid #4B88FF;
+    box-shadow: 0 0 20px rgba(69,133,243,0.12);
+}
+.contact-card h4 {
+    margin: 0 0 8px 0;
+    color: #4B88FF;
+}
+.contact-card a {
+    color: #7BB1FF;
+    text-decoration: none;
+}
+.contact-card a:hover {
+    text-decoration: underline;
+}
+.contact-hint {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #AAA;
+}
+
+.stat-card {
+    text-align: center;
+    color: #ccc;
+    font-size: 15px;
+    background-color: #161B22;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.stat-card p {
+    margin: 4px 0;
+}
+
+.landing-footer {
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+    padding: 12px 0 4px 0;
+}
+
+
+/* Скрыть футер и меню */
+footer {visibility: hidden;}
+div[class="st-emotion-cache-scp8yw e3g0k5y6"] {
+    display: none !important;
+}
